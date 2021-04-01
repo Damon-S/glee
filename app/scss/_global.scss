@@ -1,14 +1,31 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
     font-size: 16px;
     line-height: 1.5;
     @extend %dmsans-400;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.wrapper {
     max-width: 1800px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.page {
+    flex-grow: 1;
 }
 
 .visually-hidden {
