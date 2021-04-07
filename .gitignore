@@ -4,6 +4,7 @@
 .vscode
 *.sublime*
 npm-debug.*
+.psd
 
 dist/
 node_modules/
